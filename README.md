@@ -39,6 +39,17 @@ Analyse the situation using the ATT&CK Calculator tool (https://top-attack-techn
 <h3>Results</h3>
 <br>
 
+I'll address the operating systems. I will check Windows and Linux as those are the primary devices in the organisation. Next, I needed to address the Detection Analytics portion. I checked Splunk, CAR, and Sigma as I want the techniques that are displayed to be in at least one of the three public repositories for our detection library.
+
+Now that the filters are in place, I will address the monitoring components to match our environment. Network Monitoring is under control, so we are safe to put that component as high. This will weigh any network related techniques much lower, so we can focus on the tactics that are more important to us. For Cloud Monitoring, I will select high. This is because it was expressed that this is an on-prem environment, and we want all cloud related techniques weighted lowest, so we do not waste time on unnecessary techniques in accordance with our environment. Lastly, I will keep hardware at none as the documentation didn’t mention this aspect. 
+
+<br>Now that everything is configured, let’s go ahead and generate results to see what techniques we are presented with.
+
+<br>
+Breakdown of results
+
+<br>
+
 <img src="assets/MITRE Calculator.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
