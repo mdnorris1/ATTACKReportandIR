@@ -57,6 +57,15 @@ Breakdown of results
 <img src="assets/MITRE Calculator 2.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
+<br>
+<h3>Review</h3>
+<br>
+We discovered 10 techniques that have high interest. With the weighting system displaying to us the most actionable and prevalent to our needs, we have an ezcellent starting point for technique education, mitigations, and detections for our environment.
+<br>
+While looking at these results, we may want some more specific techniques applicable to Access Control and Training for phishing as mentioned in the goals of the project. While keeping the same filters in place, we can add all the Access Control (AC) categories in the NIST 800-53 Controls as these deal with Access Controls and add in all the 14’s for CIS security Controls as these deal with Security Awareness and Skills Training. 
+<br>
+Now that you have applicable techniques to investigate, you may want to review your security control configurations and see if you have defenses against them. We could now further the respond by using a Breach and Attack Simulation tool such as AttackIQ, or utilize a red team to carry out these techniques in the environment to see if the proper protections are in place. Based on your findings after testing, we can build a remediation plan for techniques that were not prevented or alerted on so we can catch these techniques at our next test, or incident.
+
 
 Hope you enjoyed the walkthrough of the project, with the idea coming from the brilliant Attack IQ!
 
