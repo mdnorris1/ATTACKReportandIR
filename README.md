@@ -6,6 +6,7 @@ I’m a cybersecurity analyst at a large SOC. We are a small 100–200 person co
 cloud infrastructure in our environment.) All employees are assigned a Windows 10 Laptop 
 which is domain joined by our IT department. We also have a plethora of Linux Servers hosting 
 our web infrastructure.
+
 <br>
 
 Let’s talk about security products. Endpoint monitoring is in a rough state at the moment. We 
