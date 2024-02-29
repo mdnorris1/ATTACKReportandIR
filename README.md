@@ -1,10 +1,12 @@
-# ATT&CKReportandIR
+# ATT&CK Report and IR
 
-Scenario 
+<h3>Scenario</h3>
+<br>
 I’m a cybersecurity analyst at a large SOC. We are a small 100–200 person company with an on-prem active directory infrastructure. (We are 100% on-prem, no 
 cloud infrastructure in our environment.) All employees are assigned a Windows 10 Laptop 
 which is domain joined by our IT department. We also have a plethora of Linux Servers hosting 
 our web infrastructure.
+<br>
 
 Let’s talk about security products. Endpoint monitoring is in a rough state at the moment. We 
 are currently checking out several vendors for the best price and security coverage. The 
@@ -27,20 +29,23 @@ We are happy to have you! Now please, secure our company!
 
 <br>
 
-Goals & Objectives
+<h3>Goals & Objectives</h3>
+<br>
 Analyse the situation using the ATT&CK Calculator tool (https://top-attack-techniques.mitre-engenuity.org/calculator) and create a report to start building a response, building trust and improving security practices within the company.
-
+<br>
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/http%20requests.png" height="80%" width="80%" alt="ifconfig command"/>
+
+<br>
+<h3>Results</h3>
+<br>
+
+<img src="assets/MITRE Calculator.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
 <br/>
-<img src="https://github.com/mdnorris1/WiresharkLab/blob/main/assets/css/conversations2.png" height="80%" width="80%" alt="ifconfig command"/>
+<img src="assets/MITRE Calculator 2.png" height="80%" width="80%" alt="ifconfig command"/>
 <br />
 
-<br>
-Results
-<br>
 
 Hope you enjoyed the walkthrough of the project, with the idea coming from the brilliant Attack IQ!
 
